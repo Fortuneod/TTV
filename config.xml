@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.fortuneod.bible"
+    versionCode = "10"
+    version     = "1.5.0" >
+
+   <preference name="phonegap-version" value="cli-6.5.0" />
+<!-- versionCode is optional and Android only -->
+
+  <name>TV Taraba</name>
+
+  <description>
+      Mobile App For TV Taraba
+  </description>
+    
+  <icon src="logo2.jpg" width="75" height="75" density="mdpi" />
+
+  <author href="https://www.gradenetnigeria.com" email="info@gradenetnigeria.com">
+      Fortune Odesanya
+  </author>
+
+</widget>
