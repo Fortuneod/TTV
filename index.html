@@ -20,7 +20,7 @@
 <script src="assets/js/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body onLoad="checkNetwork()">
 <div id="preloader">
   <div id="status">&nbsp;</div>
 </div>
@@ -69,14 +69,7 @@
 <script src="assets/js/custom.js"></script>
     <script>
 		function checkNetwork() {
-			var isOnline = navigator.onLine;
-			
-			if(isOnline) {
-				location.href='https://www.tvtaraba.com';
-			}
-			else {
-				location.href='Network.html';
-			}
+			location.href='https://www.tvtaraba.com';
 		}
 	</script>
 </body>
